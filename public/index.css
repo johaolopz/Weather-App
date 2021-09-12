@@ -1,0 +1,13 @@
+body{
+    margin-top: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4d/BlankMap-World.svg");
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    body {
+     background-size: 350%;
+     background-position: right 70% top -10%;
+
+    }
+}

@@ -1,0 +1,74 @@
+.mainContainer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(182, 179, 179, 0.527);
+    width: 50%;
+    box-shadow: 0 0 20px rgb(255, 243, 68);
+}
+
+#profilePhoto {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.headAbout {
+    display: flex;
+    flex-direction: row;
+}
+
+.divPhoto {
+    margin: 15px;
+}
+
+.divDetailContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.divDetailContainer h3 {
+    text-align: left;
+    margin-bottom: auto;
+}
+
+.divDetailContainer p {
+    text-align: left;
+}
+
+.divSocial {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+    .divSocial {
+        display: flex;
+        justify-content: center;
+    }
+    .redes {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    .aboutContainer {
+        width: 80%;
+    }
+}

@@ -1,0 +1,49 @@
+.card {
+    margin: 20px;
+    width: 18rem;
+    background-image: linear-gradient(180deg, #a4ffd6 0%, #009efd 100%);
+    box-shadow: 2px 2px 5px #999;
+    border:white solid 2.5px;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  
+  .card:hover{
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: indigo;
+    font-size: 27px;
+  }
+  
+  #closeIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+
+  #botonX {
+    color:white;
+    font-size: 20px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+  }
+  
+  #botonX:hover {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+  
+  .card-body {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .anchorTitle{
+    text-decoration: none;
+  }
+  

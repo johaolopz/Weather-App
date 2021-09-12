@@ -1,0 +1,132 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  background: url("../img/background_weather.jpg") no-repeat;
+  background-size:cover;
+  border-radius: 30px;
+}
+
+.aNav{ text-decoration: none; }
+
+.stroke {
+  font-family: impact;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.divLogo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  margin-left: 5px;
+  height: 80px;
+}
+
+#logoApp {
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 30px;
+  }
+  
+  .inputSearch {
+    display: flex;
+    border-radius: 5px;
+    border: rgb(190, 190, 190) solid 1.5px;
+  }
+  
+  .botonSearch {
+    display: flex;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #f7f28e;
+    border: #f7f28e solid 1.5px;
+    margin-left: 5px;
+  }
+  
+  .botonSearch:hover{
+    border-radius: 5px;
+    background: #ec6e4c;
+    color: white;
+    border: #343a40 solid 1.5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .aAbout {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 2px;
+  }
+  
+  .about {
+    display: flex;
+    color: white;
+    font-size: x-large;
+    font-family: impact;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px black;
+  }
+  
+  .about:hover {
+    text-underline-offset:initial;
+  }
+
+.formSearching{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+  .divSearching {
+    display: flex;
+  }
+
+  @media (max-width: 600px) {
+    .divLogo {
+      margin: auto;
+    }
+    .navContainer {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 190px;
+    }
+    .stroke {
+      font-size: 40px;
+    }
+    #logoApp {
+      margin-top: 10px;
+      width: 80px;
+      height: 80px;
+      box-shadow: 5px 5px 8px rgb(0, 0, 0);
+      border-radius: 50px;
+    }
+    .divSearching {
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    .inputSearch {
+      font-size: 20px;
+    }
+    .botonSearch {
+      font-size: 20px;
+      margin: auto;
+      margin-top: 5px;
+      color: black;
+    border: black solid 1.5px;
+    }
+    .botonSearch:hover{
+      font-size: 20px;
+      margin: auto;
+      margin-top: 5px;
+    }
+
+  }
