@@ -41,10 +41,10 @@ function App() {
           };
           autoExec();
           async function autoExec() {
-            await fetch(`https://restcountries.eu/rest/v2/alpha/${ciudad.alphaCode}`)
+            await fetch(`https://restcountries.com/v3.1/alpha/${ciudad.alphaCode}`)
                           .then(r2 => r2.json())
                           .then((recurso2) => {
-                            ciudad.flag = recurso2.flag;
+                            ciudad.flag = recurso2[0].flags.svg;
                             setCities(oldCities => [...oldCities, ciudad]);
                           });
           }
