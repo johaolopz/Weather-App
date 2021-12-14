@@ -8,7 +8,7 @@ export default function Card ({min, max, name, img, onClose, id, flag}) {
         <div id="closeIcon" className="row">
             <button id='botonX' onClick={onClose} className="btn btn-sm btn-danger">X</button>
         </div>
-        <Link className='anchorTitle' to={`/ciudad/${id}`} >
+        <Link className='anchorTitle' to={`/Weather-App/ciudad/${id}`} >
           <div className="card-body">
             <img className="iconoBandera" src={flag} width="60" height="40" alt="" />
               <h5 className="card-title">{name}</h5>

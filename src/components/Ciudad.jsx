@@ -16,7 +16,7 @@ export default function Ciudad({city}) {
                         <div>Longitude: {city.longitud}º</div>
                     </div>
                     <br />
-                    <Link to='/'>
+                    <Link to='/Weather-App/'>
                         <button className='botonHome'>Home</button>
                     </Link>
             </div>
